@@ -1,14 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Estilização do Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Adicione o JavaScript do Bootstrap o para funcionalidades -->
+    <script src="bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <title> Meu projeto da Faculdade </title>
 </head>
+<!-- Minha parte do cabecalho -->
+
 <body>
-    <div>Primeiro github</div>
-    <div>Segundo Github</div>
-    kndfvioknsdkvnsnvdopsdmvpomsdvpkm\avfopmopmbopm\sfpkbm
-    <div>Mudança do outro github</div>
+    <header class="menu-principal">
+        <div class="logo">
+            <img src="./img/logo20.png" />
+            <span class="nomedocabecalho">ESCOBAR DU CORTES </span>
+            <nav class="menu">
+                <ul>
+                    <li><a href="./index.html">Página Inicial</a></li>
+                    <li><a href="./servicos.html">Serviços</a></li>
+                    <li><a href="./sobrenos.html">Sobre</a></li>
+                    <li><a href="./loginregistro.html">Login</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="./agendamento.html">Agendamento</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="redessociais">
+            <a href="https://www.instagram.com/kyliejenner/" > 
+                <img src="./img/instagramlogo.png" style="width: 25px ; height: auto;">
+            </a>
+
+        </div>
+    </header>
+
+
+    <!-- Conteudo principal -->
+    <section class="corpo-inicial">
+        <div class="banner">
+            <img src="./img/capa2.jfif" alt="banner do estabelecimento">
+        </div>
+        <div class="descricao">
+                         <p>Agende conosco um corte de cabelo </p>
+            <a href="./loginregistro.html" class="btn btn-outline-dark">Clique Aqui para se Registrar </a>
+        </div>
+    </section>
+
+    <section class="servicos">
+        <h2>Alguns Feedbacks de Nossos Clientes </h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/bffb291225baffa50696886461e26dba.jpg" class="card-img-top" alt="corte x">
+                    <div class="card-body">
+                        <h5 class="card-title">Corte XXXXX </h5>
+                        <p class="card-text"> "Eu adorei realizar este corte de cabelo aqui , porque tal tal tal " </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/bffb291225baffa50696886461e26dba.jpg" class="card-img-top" alt="corte du jaca">
+                    <div class="card-body">
+                        <h5 class="card-title">Corte du Jaca </h5>
+                        <p class="card-text">Experimentei este corte e amei pq xxx .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/bffb291225baffa50696886461e26dba.jpg" class="card-img-top" alt="corte 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Corte 02 </h5>
+                        <p class="card-text">corte legal pq sla o q.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="localizacao">
+        <h2>Localização</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.454530073557!2d-46.66297778520004!3d-23.534930393353214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56a5866b5f%3A0x125a24764324774e!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1sen!2sbr!4v1625621779729!5m2!1sen!2sbr"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <footer class="rodape">
+        <p>&copy; 2023 ESCOBAR DU CORTES. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Termos de Uso</a></li>
+        </ul>
+    </footer>
+
+
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
