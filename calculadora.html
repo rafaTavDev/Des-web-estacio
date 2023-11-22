@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Login</title>
-    <link rel="stylesheet" href="./css/login.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/calculadora.css">
 </head>
-<body class="login-body">
+<body>
+
     <header class="menu-principal">
         <div class="logo">
             <img src="./img/logo20.png" />
@@ -18,7 +19,6 @@
                     <li><a href="./sobrenos.html">Sobre</a></li>
                     <li><a href="./login.html">Login</a></li>
                     <li><a href="./feedback.html">Feedback</a></li>
-                    <li><a href="./calculadora.html">calculadora</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,24 +30,15 @@
         <div class="container-nome-login"></div>
     </header>
 
-    <div class="login-container">
-        <main class="login-area">
-            <h1 class="login-titulo">Faça seu Login na nossa barbearia!</h1>
-            <form class="login-form" action="">
-                <input class="login-input login-email" type="email" required placeholder="email">
-                <input class="login-input login-senha" type="password" required placeholder="senha">
-                <button class="login-botao">Entrar</button>
-                <div class="login-resposta"></div>
+    <div class="calc-container">
+        <main class="calc-area">
+            <h1 class="calc-titulo">Junte a rapaziada e ganhe descontos de até 50% cada um!</h1>
+            <form class="calc-form" action="./calculadora.php" method="post">
+                <input class="calc-input" name="maquina" type="number" min="2" max="10" required placeholder=" Quantos cortes na máquina (máx 10, valor unidade: R$50):">
+                <button class="calc-botao" name="bt-calc">Calcular promoção</button>
             </form>
-            <a class="login-se-cadastre" href="./registrar.html">Ainda não tem login? Se cadastre aqui!</a>
         </main>
-        <div class="login-bem-sucedido">
-            <div class="texto-logado"></div>
-            <a href="./login.html">Sair</a>
-        </div>
     </div>
 
-
-    <script src="./js/login.js"></script>
 </body>
 </html>

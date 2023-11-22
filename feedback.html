@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Login</title>
-    <link rel="stylesheet" href="./css/login.css">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="./css/feedback.css">
 </head>
-<body class="login-body">
+<body>
     <header class="menu-principal">
         <div class="logo">
             <img src="./img/logo20.png" />
@@ -18,7 +18,6 @@
                     <li><a href="./sobrenos.html">Sobre</a></li>
                     <li><a href="./login.html">Login</a></li>
                     <li><a href="./feedback.html">Feedback</a></li>
-                    <li><a href="./calculadora.html">calculadora</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,24 +29,19 @@
         <div class="container-nome-login"></div>
     </header>
 
-    <div class="login-container">
-        <main class="login-area">
-            <h1 class="login-titulo">Faça seu Login na nossa barbearia!</h1>
-            <form class="login-form" action="">
-                <input class="login-input login-email" type="email" required placeholder="email">
-                <input class="login-input login-senha" type="password" required placeholder="senha">
-                <button class="login-botao">Entrar</button>
-                <div class="login-resposta"></div>
+
+    <div class="feed-container">
+        <main class="feed-area">
+            <h1 class="feed-titulo">Fale o que achou da nossa barbearia!</h1>
+            <form class="feed-form" action="./email.php" method="POST">
+                <input name="email" class="feed-input feed-email" type="email" required placeholder="email">
+                <textarea name="mensagem" id="" cols="30" rows="10"></textarea>
+                <button class="feed-botao">Entrar</button>
+                <div aria-placeholder="texto" class="feed-resposta"></div>
             </form>
-            <a class="login-se-cadastre" href="./registrar.html">Ainda não tem login? Se cadastre aqui!</a>
         </main>
-        <div class="login-bem-sucedido">
-            <div class="texto-logado"></div>
-            <a href="./login.html">Sair</a>
-        </div>
     </div>
 
 
-    <script src="./js/login.js"></script>
 </body>
 </html>
