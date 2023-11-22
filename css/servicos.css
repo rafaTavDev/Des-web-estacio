@@ -93,9 +93,16 @@ body {
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    margin: 50px;
+    margin: 50px ;
 }
-
+.containerCortes2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 50px ;
+}
 .containerCortes1>div>a>button,
 .containerCortes2>div>a>button {
     height: 50px;
@@ -109,10 +116,10 @@ body {
 
 }
 
-.botao:hover {
+.botao:hover{   
     background-color: rgb(155, 155, 155);
 
-}
+    }
 
 .containerCortes1>div {
     width: 350px;
@@ -131,11 +138,13 @@ body {
     margin-top: 150px;
     width: 350px;
     border: solid black 2px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 10px;    border-radius: 9px;
+
+    padding: 20px;
+
 }
 
 .corrte1 {
@@ -168,10 +177,10 @@ body {
     font-size: 14px;
     line-height: 1.8;
     color: #fff;
-    margin-top: 600px;
+    margin-top: 300px;
 }
 
-.img-corte {
+.img-corte{
     width: 80%;
-    height: auto;
+    height:auto;
 }
