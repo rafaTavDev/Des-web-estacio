@@ -38,7 +38,15 @@ body {
     margin-right: 0,5%; 
 }
 
+.tsobrenos{
+    margin-top: 20px;
+    font-size: 25px;
+    height: 600px;
+    width: 45%;
+    display: inline-block;
+    text-align: center; 
 
+    }
 .menu {
     color: #fff; 
     display: inline-block;
@@ -88,4 +96,11 @@ align-items: center;
   
     align-content: space-between;
   }
-  
+  .rodape {
+    background-color: #2f2e2e;
+    padding: 3rem;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #fff;
+    margin-top: 500px;
+}
