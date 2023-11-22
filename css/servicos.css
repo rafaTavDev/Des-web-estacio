@@ -87,33 +87,36 @@ body {
     align-content: space-between;
 }
 
-.containerCortes1,
-.containerCortes2 {
+.containerCortes1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     align-content: center;
+    margin: 50px 0;
 }
 
-.containerCortes1>div>button,
-.containerCortes2>div>button {
-    margin-top: 300px;
+.containerCortes1>div>a>button,
+.containerCortes2>div>a>button {
     height: 50px;
     width: 120px;
     border: 2px black solid;
     border-radius: 8px;
     background-color: grey;
     color: whitesmoke;
+    cursor: pointer;
 
 
 }
 
 .containerCortes1>div {
-    margin-top: 200px;
     width: 350px;
-    height: 400px;
     border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
 
 
 }
@@ -121,8 +124,11 @@ body {
 .containerCortes2>div {
     margin-top: 150px;
     width: 350px;
-    height: 400px;
     border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .corrte1 {
@@ -155,4 +161,9 @@ body {
     font-size: 14px;
     line-height: 1.8;
     color: #fff;
+}
+
+.img-corte{
+    width: 80%;
+    height:auto;
 }
