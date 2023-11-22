@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página de Login</title>
     <link rel="stylesheet" href="./css/login.css">
 </head>
 <body class="login-body">
@@ -13,7 +13,7 @@
             <span class="nomedocabecalho">ESCOBAR DU CORTES </span>
             <nav class="menu">
                 <ul>
-                    <li><a href="./index.html">Página Inicial</a></li>
+                    <li><a class="pagina-inicial-link" href="./index.html">Página Inicial</a></li>
                     <li><a href="./servicos.html">Serviços</a></li>
                     <li><a href="./sobrenos.html">Sobre</a></li>
                     <li><a href="./login.html">Login</a></li>
@@ -26,12 +26,27 @@
                 <img src="./img/instagramlogo.png" style="width: 25px ; height: auto;">
             </a>
         </div>
+        <div class="container-nome-login"></div>
     </header>
 
-    <form class="login-form" action="">
-        <input type="text" placeholder="email">
-        <input type="text" placeholder="senha">
-        <button class="login-botao">Entrar</button>
-    </form>
+    <div class="login-container">
+        <main class="login-area">
+            <h1 class="login-titulo">Faça seu Login na nossa barbearia!</h1>
+            <form class="login-form" action="">
+                <input class="login-input login-email" type="email" required placeholder="email">
+                <input class="login-input login-senha" type="password" required placeholder="senha">
+                <button class="login-botao">Entrar</button>
+                <div class="login-resposta"></div>
+            </form>
+            <a class="login-se-cadastre" href="./registrar.html">Ainda não tem login? Se cadastre aqui!</a>
+        </main>
+        <div class="login-bem-sucedido">
+            <div class="texto-logado"></div>
+            <a href="./login.html">Sair</a>
+        </div>
+    </div>
+
+
+    <script src="./js/login.js"></script>
 </body>
 </html>

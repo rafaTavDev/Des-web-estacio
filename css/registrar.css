@@ -64,12 +64,9 @@ align-items: center;
 
 
 
-.login-container{
-    height: calc(100vh - 80px);
-}
 
-.login-area{
-    height: 100%;
+.registrar-container{
+    height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -77,18 +74,18 @@ align-items: center;
     align-items: center;
 }
 
-.login-body{
+.registrar-body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.login-titulo{
+.registrar-titulo{
     font-size: 40px;
 
 }
 
-.login-input{
+.registrar-input{
     padding: 1rem;
     border-radius: 2rem;
     outline: none;
@@ -98,7 +95,7 @@ align-items: center;
     color: #fff;
 }
 
-.login-botao{
+.registrar-botao{
     width: 150px;
     padding: 1rem;
     border-radius: 2rem;
@@ -106,7 +103,7 @@ align-items: center;
     cursor: pointer;
 }
 
-.login-form{
+.registrar-form{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,33 +115,17 @@ align-items: center;
     font-weight: bold;
 }
 
-.login-botao{
+.registrar-botao{
 
 }
 
-.login-se-cadastre{
+.registrar-voltar-login{
     color: #000;
 }
 
-.login-bem-sucedido{
+.pag2-registrar{
     display: none;
 }
 
-.login-off{
-    display: none;
-}
 
-.logado{
-    text-align: center;
-    font-size: 40px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-}
 
-.logado a{
-    color: #000
-}
